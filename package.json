@@ -1,0 +1,24 @@
+{
+  "name": "sanregister",
+  "version": "1.0.0",
+  "description": "Adaptacion de nodemailer para los encuentros discretos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanjorgek/sanregistro.git"
+  },
+  "keywords": [
+    "sign",
+    "event",
+    "node"
+  ],
+  "author": "SanJorgeK",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sanjorgek/sanregistro/issues"
+  },
+  "homepage": "https://github.com/sanjorgek/sanregistro#readme"
+}
