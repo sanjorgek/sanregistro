@@ -1,5 +1,5 @@
 {
-  "name": "sanregister",
+  "name": "sanregistro",
   "version": "1.0.0",
   "description": "Adaptacion de nodemailer para los encuentros discretos",
   "main": "index.js",
