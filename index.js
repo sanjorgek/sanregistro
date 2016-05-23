@@ -18,7 +18,7 @@ var async = require('async'),
            });
          },
          function(collection, next) {
-           collection.insert(alumno, {safe: true}, next);
+           collection.insert(person, {safe: true}, next);
          }
        ], cb);       
      }
