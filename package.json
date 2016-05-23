@@ -20,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/sanjorgek/sanregistro/issues"
   },
-  "homepage": "https://github.com/sanjorgek/sanregistro#readme"
+  "homepage": "https://github.com/sanjorgek/sanregistro#readme",
+  "dependencies": {
+    "async": "^2.0.0-rc.5",
+    "debug": "^2.2.0",
+    "mongodb": "^2.1.19"
+  }
 }
