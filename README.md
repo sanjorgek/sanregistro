@@ -1,2 +1,2 @@
 # sanregistro
-Adaptacion de nodemailer para los encuentros discretos
+Simplemente guarda un json con datos personales en mongo
