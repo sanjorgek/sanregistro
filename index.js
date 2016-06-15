@@ -35,6 +35,20 @@ function init(dburl, dbname) {
           collection.find(query).sort(sort).toArray(next);
         }
       ], cb);
+    },
+    
+    updateRow: function (query, update, cb) {
+      async.waterfall([
+        function (next) {
+          MongoClient.connect(dburl, next);
+        },
+        function (db, next) {
+          db.collection(dbname, next);
+        },
+        function (collection, next) {
+          collection.update(query, update, next);
+        }
+      ], cb);
     }
   }
 }
